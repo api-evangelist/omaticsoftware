@@ -1,23 +1,77 @@
 aid: omaticsoftware
+
 name: Omatic Software
-description: 'Omatic Software is a company surfaced via the API Evangelist harvest backlog (source: g2-catalog)
-  and added to the network as a stub for full-pipeline profiling.'
+
+image: https://omaticsoftware.com/wp-content/uploads/2026/08/OG.jpg
+
+description: 'Omatic Software provides cloud-based integration and data management solutions tailored for nonprofit organizations. Their platform enables seamless data flow between fundraising, donor management, and financial systems, offering features such as data transformation, record matching, deduplication, and bulk cleanup. By centralizing data, Omatic helps nonprofits improve operational efficiency, ensure data accuracy, and support strategic decision‑making across various departments.'
+
 url: https://raw.githubusercontent.com/api-evangelist/omaticsoftware/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:g2-catalog
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-21 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-21'
+
 modified: '2026-10-21'
+
 tags:
-- Company
-apis: []
+- Nonprofit
+- Data Integration
+- Cloud Platform
+- Automation
+- CRM
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: Support
+  url: https://help.omaticsoftware.com/
+- type: Compliance
+  url: https://trust.omaticsoftware.com/
+- type: SecurityTxt
+  url: well-known/omaticsoftware-status-security.txt
+- type: WellKnown
+  url: well-known/omaticsoftware-well-known.yml
+- type: Hosts
+  url: hosts/omaticsoftware-hosts.yml
+- type: Vendors
+  url: vendors/omaticsoftware-vendors.yml
+- type: TermsOfService
+  url: https://omaticsoftware.com/terms-condition
+- type: StatusPage
+  url: https://status.omaticsoftware.com/
+- type: Security
+  url: https://omaticsoftware.com/platform/security/
+- type: PrivacyPolicy
+  url: https://omaticsoftware.com/privacy-policy
+- type: Newsroom
+  url: https://omaticsoftware.com/resources/newsroom/
+- type: GitHubOrganization
+  url: https://github.com/OmaticSoftware
+- type: TrustCenter
+  url: security/omaticsoftware-trust-center.yml
+- type: DomainSecurity
+  url: security/omaticsoftware-domain-security.yml
 - type: Website
   url: https://omaticsoftware.com/
+- type: Documentation
+  url: https://omaticsoftware.com/resources/blog/
+
+apis: []
+x-enrichment:
+  date: '2026-10-21'
+  status: enriched
+  artifacts_added: 12
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

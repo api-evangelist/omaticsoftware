@@ -1,0 +1,18 @@
+generated: '2026-10-21'
+method: none
+source:
+- https://zapier.com/apps/omaticsoftware/integrations
+- https://zapier.com/apps/omatic-software/integrations
+- https://n8n.io/integrations/omaticsoftware/
+- https://composio.dev/toolkits/omaticsoftware
+- https://monid.ai/tools/omaticsoftware
+checked:
+- https://composio.dev/toolkits/omaticsoftware
+- https://monid.ai/tools/omaticsoftware
+- https://n8n.io/integrations/omaticsoftware/
+- https://zapier.com/apps/omatic-software/integrations
+- https://zapier.com/apps/omaticsoftware/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
